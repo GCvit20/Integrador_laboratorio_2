@@ -1,0 +1,20 @@
+C:\Workspace\Programacion 2\Trabajo integrador\Trabajo integrador laboratorio 2\obj\Debug\net6.0-windows\Trabajo integrador laboratorio 2.csproj.GenerateResource.cache
+C:\Workspace\Programacion 2\Trabajo integrador\Trabajo integrador laboratorio 2\obj\Debug\net6.0-windows\Trabajo integrador laboratorio 2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workspace\Programacion 2\Trabajo integrador\Trabajo integrador laboratorio 2\obj\Debug\net6.0-windows\Trabajo integrador laboratorio 2.AssemblyInfoInputs.cache
+C:\Workspace\Programacion 2\Trabajo integrador\Trabajo integrador laboratorio 2\obj\Debug\net6.0-windows\Trabajo integrador laboratorio 2.AssemblyInfo.cs
+C:\Workspace\Programacion 2\Trabajo integrador\Trabajo integrador laboratorio 2\obj\Debug\net6.0-windows\Trabajo integrador laboratorio 2.csproj.CoreCompileInputs.cache
+C:\Workspace\Programacion 2\Trabajo integrador\Trabajo integrador laboratorio 2\bin\Debug\net6.0-windows\Trabajo integrador laboratorio 2.exe
+C:\Workspace\Programacion 2\Trabajo integrador\Trabajo integrador laboratorio 2\bin\Debug\net6.0-windows\Trabajo integrador laboratorio 2.deps.json
+C:\Workspace\Programacion 2\Trabajo integrador\Trabajo integrador laboratorio 2\bin\Debug\net6.0-windows\Trabajo integrador laboratorio 2.runtimeconfig.json
+C:\Workspace\Programacion 2\Trabajo integrador\Trabajo integrador laboratorio 2\bin\Debug\net6.0-windows\Trabajo integrador laboratorio 2.dll
+C:\Workspace\Programacion 2\Trabajo integrador\Trabajo integrador laboratorio 2\bin\Debug\net6.0-windows\Trabajo integrador laboratorio 2.pdb
+C:\Workspace\Programacion 2\Trabajo integrador\Trabajo integrador laboratorio 2\bin\Debug\net6.0-windows\Entidades.dll
+C:\Workspace\Programacion 2\Trabajo integrador\Trabajo integrador laboratorio 2\bin\Debug\net6.0-windows\Entidades.pdb
+C:\Workspace\Programacion 2\Trabajo integrador\Trabajo integrador laboratorio 2\obj\Debug\net6.0-windows\Trabajo integrador laboratorio 2.csproj.AssemblyReference.cache
+C:\Workspace\Programacion 2\Trabajo integrador\Trabajo integrador laboratorio 2\obj\Debug\net6.0-windows\Trabajo integrador laboratorio 2.csproj.CopyComplete
+C:\Workspace\Programacion 2\Trabajo integrador\Trabajo integrador laboratorio 2\obj\Debug\net6.0-windows\Trabajo integrador laboratorio 2.dll
+C:\Workspace\Programacion 2\Trabajo integrador\Trabajo integrador laboratorio 2\obj\Debug\net6.0-windows\refint\Trabajo integrador laboratorio 2.dll
+C:\Workspace\Programacion 2\Trabajo integrador\Trabajo integrador laboratorio 2\obj\Debug\net6.0-windows\Trabajo integrador laboratorio 2.pdb
+C:\Workspace\Programacion 2\Trabajo integrador\Trabajo integrador laboratorio 2\obj\Debug\net6.0-windows\Trabajo integrador laboratorio 2.genruntimeconfig.cache
+C:\Workspace\Programacion 2\Trabajo integrador\Trabajo integrador laboratorio 2\obj\Debug\net6.0-windows\ref\Trabajo integrador laboratorio 2.dll
+C:\Workspace\Programacion 2\Trabajo integrador\Trabajo integrador laboratorio 2\obj\Debug\net6.0-windows\Trabajo_integrador_laboratorio_2.FrmCalculadora.resources

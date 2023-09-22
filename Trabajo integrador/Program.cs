@@ -1,4 +1,5 @@
-﻿namespace Trabajo_integrador
+﻿using Entidades;
+namespace Trabajo_integrador
 {
     internal class Program
     {

@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Workspace\\Programacion 2\\Trabajo integrador\\Trabajo integrador\\Trabajo integrador.csproj": {}
+    "C:\\Workspace\\Programacion 2\\Trabajo integrador\\Trabajo integrador laboratorio 2\\MiCalculadora.csproj": {}
   },
   "projects": {
     "C:\\Workspace\\Programacion 2\\Trabajo integrador\\Entidades\\Entidades.csproj": {
@@ -59,29 +59,29 @@
         }
       }
     },
-    "C:\\Workspace\\Programacion 2\\Trabajo integrador\\Trabajo integrador\\Trabajo integrador.csproj": {
+    "C:\\Workspace\\Programacion 2\\Trabajo integrador\\Trabajo integrador laboratorio 2\\MiCalculadora.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Workspace\\Programacion 2\\Trabajo integrador\\Trabajo integrador\\Trabajo integrador.csproj",
-        "projectName": "Trabajo integrador",
-        "projectPath": "C:\\Workspace\\Programacion 2\\Trabajo integrador\\Trabajo integrador\\Trabajo integrador.csproj",
+        "projectUniqueName": "C:\\Workspace\\Programacion 2\\Trabajo integrador\\Trabajo integrador laboratorio 2\\MiCalculadora.csproj",
+        "projectName": "MiCalculadora",
+        "projectPath": "C:\\Workspace\\Programacion 2\\Trabajo integrador\\Trabajo integrador laboratorio 2\\MiCalculadora.csproj",
         "packagesPath": "C:\\Users\\54332\\.nuget\\packages\\",
-        "outputPath": "C:\\Workspace\\Programacion 2\\Trabajo integrador\\Trabajo integrador\\obj\\",
+        "outputPath": "C:\\Workspace\\Programacion 2\\Trabajo integrador\\Trabajo integrador laboratorio 2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\54332\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net6.0-windows"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
             "projectReferences": {
               "C:\\Workspace\\Programacion 2\\Trabajo integrador\\Entidades\\Entidades.csproj": {
                 "projectPath": "C:\\Workspace\\Programacion 2\\Trabajo integrador\\Entidades\\Entidades.csproj"
@@ -96,8 +96,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
           "imports": [
             "net461",
             "net462",
@@ -112,6 +112,9 @@
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
