@@ -10,7 +10,7 @@ namespace Entidades
         public enum ESistema { Decimal, Binario };
 
         public ESistema Sistema { get { return this.sistema; } }
-        public string Valor { get { return this.valorNumerico.ToString(); } }
+        public string Valor { get { return valorNumerico.ToString(); } }
 
         private void InicializarValores(string valor, ESistema sistema) 
         {
@@ -47,17 +47,8 @@ namespace Entidades
 
         public string ConvetirA(ESistema sistema)
         {
-
-            if(ESistema.Decimal == this.sistema)
-            {
-                return valorNumerico.ToString();
-            }
-            else if (ESistema.Binario == this.sistema)
-            {
-                return DecimalABinario((int)valorNumerico);
-            }
-
-            return "";
+            return sistema == ESistema.Binario ? Numeracion.DecimalABinario(this.Valor):this.Valor;
+   
         }
 
 
@@ -108,11 +99,11 @@ namespace Entidades
             {
                 return "0"; // El número 0 en binario es 0
             }
-            else if (EsBinario(valor.ToString()) == true)
+            else if (valor < 0)
             {
                 return "Numero invalido"; 
             }
-            else if (valor > 0)
+            else
             {
 
                 // Mientras el número sea mayor que 0, continuamos dividiendo y agregando los residuos al principio de la cadena
@@ -140,11 +131,11 @@ namespace Entidades
             {
                 return "0"; // El número 0 en binario es 0
             }
-            else if (EsBinario(valor.ToString()) == true)
+            else if (valorNumero < 0)
             {
-                return "Numero invalido";
+                return  "Numero invalido";
             }
-            else if (valorNumero > 0)
+            else
             {
 
                 // Mientras el número sea mayor que 0, continuamos dividiendo y agregando los residuos al principio de la cadena
@@ -203,9 +194,11 @@ namespace Entidades
         }
         public static Numeracion operator / (Numeracion n1, Numeracion n2)
         {
+           
             double resultado = n1.valorNumerico / n2.valorNumerico;
 
             return new Numeracion(resultado, ESistema.Decimal);
+
         }
 
 

@@ -44,7 +44,7 @@
             backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             cmbOperacion = new ComboBox();
             lbl = new Label();
-            label1 = new Label();
+            lblResultadoNumero = new Label();
             grpSistema.SuspendLayout();
             SuspendLayout();
             // 
@@ -164,6 +164,7 @@
             txtPrimerOperador.Name = "txtPrimerOperador";
             txtPrimerOperador.Size = new Size(139, 23);
             txtPrimerOperador.TabIndex = 7;
+            txtPrimerOperador.TextChanged += txtPrimerOperador_TextChanged;
             // 
             // txtSegundoOperador
             // 
@@ -194,21 +195,21 @@
             lbl.TabIndex = 10;
             lbl.Click += lbl_Click;
             // 
-            // label1
+            // lblResultadoNumero
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 25F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(192, 69);
-            label1.Name = "label1";
-            label1.Size = new Size(0, 46);
-            label1.TabIndex = 11;
+            lblResultadoNumero.AutoSize = true;
+            lblResultadoNumero.Font = new Font("Segoe UI", 25F, FontStyle.Regular, GraphicsUnit.Point);
+            lblResultadoNumero.Location = new Point(192, 69);
+            lblResultadoNumero.Name = "lblResultadoNumero";
+            lblResultadoNumero.Size = new Size(0, 46);
+            lblResultadoNumero.TabIndex = 11;
             // 
             // FrmCalculadora
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(699, 465);
-            Controls.Add(label1);
+            ClientSize = new Size(711, 475);
+            Controls.Add(lblResultadoNumero);
             Controls.Add(lbl);
             Controls.Add(cmbOperacion);
             Controls.Add(txtSegundoOperador);
@@ -253,6 +254,6 @@
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private ComboBox cmbOperacion;
         private Label lbl;
-        private Label label1;
+        private Label lblResultadoNumero;
     }
 }
