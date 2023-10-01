@@ -12,6 +12,11 @@ namespace Entidades
         public ESistema Sistema { get { return this.sistema; } }
         public string Valor { get { return valorNumerico.ToString(); } }
 
+        /// <summary>
+        /// Este metodo inicializara los valores del constructor. 
+        /// </summary>
+        /// <param name="valor">Recibe un string</param>
+        /// <param name="sistema">Reciber un sistema</param>
         private void InicializarValores(string valor, ESistema sistema) 
         {
        
@@ -45,12 +50,25 @@ namespace Entidades
            InicializarValores (valor, sistema);
         }
 
+        /// <summary>
+        /// Este metodo permite realizar la conversión de un valor almacenado en una instancia de la clase a un sistema numérico diferente 
+        /// (binario en este caso). Si sistema es ESistema.Binario, se realiza la conversión binaria, de lo contrario, se devuelve el valor 
+        /// en su forma original.
+        /// </summary>
+        /// <param name="sistema">Recibe por parametros un sistema</param>
+        /// <returns>Devuelve un string que contiene el resultado de la conversion.</returns>
+
         public string ConvetirA(ESistema sistema)
         {
             return sistema == ESistema.Binario ? Numeracion.DecimalABinario(this.Valor):this.Valor;
    
         }
 
+        /// <summary>
+        /// El metodo permite verificar si el valor ingresado por parametro es un numero binario o no. 
+        /// </summary>
+        /// <param name="valor">Recibe por parametros un string</param>
+        /// <returns>Si el valor ingresado es binario retorna true. De lo contrario, retorna un false.</returns>
 
         private static bool EsBinario(string valor)
         {
@@ -71,7 +89,11 @@ namespace Entidades
             return respuesta;
         }
 
-        
+        /// <summary>
+        /// Este metodo si es posible realizara la conversion de un numero bianario a decimal. 
+        /// </summary>
+        /// <param name="valor">Recibe por parametros un string</param>
+        /// <returns>Retornara un double con el resultado de la conversion si el numero ingresado es un binario. De lo contrario retorna 0</returns>
         private static double BinarioADecimal(string valor)
         {
             double decimalResultado = 0;
@@ -89,8 +111,12 @@ namespace Entidades
   
             return decimalResultado;
         }
-        
 
+        /// <summary>
+        /// Este metodo si es posible realizara la conversion de un numero decimal a binario. 
+        /// </summary>
+        /// <param name="valor"> Recibe por parametros un numero entero</param>
+        /// <returns>Retornara un string con el resultado de la conversion si el mismo es un numero positivo. De lo contrario retorna "Numero invalido"</returns>
         private static string DecimalABinario(int valor)
         {
             string binario = "";
@@ -119,6 +145,12 @@ namespace Entidades
             return binario;
 
         }
+
+        /// <summary>
+        /// Este metodo si es posible realizara la conversion de un numero decimal a binario. 
+        /// </summary>
+        /// <param name="valor"> Recibe por parametros un string</param>
+        /// <returns>Retornara un numero entero con el resultado de la conversion si el mismo es un numero positivo. De lo contrario retorna "Numero invalido"</returns>
 
         private static string DecimalABinario(string valor)
         {
@@ -219,7 +251,11 @@ namespace Entidades
             this.segundoOperador = segundoOperador;
         }
 
-        
+        /// <summary>
+        /// Este metodo realizara la operacion correspondiente dependiendo del operador que se le ingrese por parametro.
+        /// </summary>
+        /// <param name="operador">Recibira un char.</param>
+        /// <returns>Retorna el resultado de dicha operacion.</returns>
         public Numeracion Operar(char operador)
         {
             double resultado;
@@ -243,7 +279,6 @@ namespace Entidades
                     resultado = primerOperador / segundoOperador;
                     break;
                 default:
-                    // Si el operador no es válido, ejecuta una suma por defecto
                     resultado = primerOperador + segundoOperador;
                     break;
             }

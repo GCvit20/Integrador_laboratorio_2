@@ -9,10 +9,10 @@ namespace Trabajo_integrador_laboratorio_2
     public partial class FrmCalculadora : Form
     {
         private ESistema sistema;
-        private Numeracion primerOperador;
-        private Numeracion segundoOperador;
-        private Numeracion resultado;
-        private Operacion operacion;
+        private Numeracion? primerOperador;
+        private Numeracion? segundoOperador;
+        private Numeracion? resultado;
+        private Operacion? operacion;
 
         public FrmCalculadora()
         {
